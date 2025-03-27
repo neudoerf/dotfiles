@@ -659,11 +659,11 @@ require("lazy").setup({
 					},
 				},
 
-				nil_ls = {
-					["nil"] = {
-						formatting = { command = { "nixpkgs-fmt" } },
-					},
-				},
+				-- nil_ls = {
+				-- 	["nil"] = {
+				-- 		formatting = { command = { "nixpkgs-fmt" } },
+				-- 	},
+				-- },
 
 				lua_ls = {
 					-- cmd = { ... },
