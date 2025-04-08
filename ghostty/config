@@ -1,5 +1,5 @@
 font-family = Iosevka Neudoerf
-theme = catppuccin-frappe
+theme = catppuccin-mocha
 command = fish
 
 shell-integration-features = no-cursor
