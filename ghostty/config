@@ -1,0 +1,6 @@
+font-family = Iosevka Neudoerf
+theme = catppuccin-frappe
+command = fish
+
+shell-integration-features = no-cursor
+cursor-style = underline
