@@ -10,8 +10,9 @@ config.default_cursor_style = "SteadyUnderline"
 config.font = wezterm.font("Iosevka Neudoerf")
 -- fix font rendering issue (should be temporary, added 20240915)
 config.front_end = "WebGpu"
-if hostname == "CPR02395L" then
-	config.font_size = 12
+if hostname == "CPR02454L" then
+	config.font_size = 13
+	config.window_decorations = "TITLE|RESIZE"
 	config.default_prog = { "fish" }
 else
 	config.font_size = 14
