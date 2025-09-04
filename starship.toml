@@ -3,16 +3,12 @@ $directory\
 $git_branch\
 $git_status\
 $fill\
-$nodejs\
-$dotnet\
-$python\
-$java\
-$c\
 $cmd_duration\
 $username \
 $hostname \
 $time \
 $line_break\
+$status\
 $character\
 """
 
@@ -35,6 +31,14 @@ format = "[ $all_status$ahead_behind](fg:green)"
 [fill]
 symbol = ' '
 style = 'fg:current_line'
+
+[status]
+disabled = false
+symbol = ''
+not_executable_symbol = ''
+not_found_symbol = ''
+sigint_symbol = ''
+signal_symbol = ''
 
 [cmd_duration]
 min_time = 500
