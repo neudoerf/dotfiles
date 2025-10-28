@@ -1,5 +1,8 @@
+config-file = ?local
+
 font-family = Iosevka Neudoerf
-theme = catppuccin-mocha
+font-size = 13
+theme = Catppuccin Mocha
 command = fish
 
 shell-integration-features = no-cursor
