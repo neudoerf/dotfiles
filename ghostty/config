@@ -7,3 +7,5 @@ command = fish
 
 shell-integration-features = no-cursor
 cursor-style = underline
+
+custom-shader = ~/.config/ghostty/shaders/shader.glsl
