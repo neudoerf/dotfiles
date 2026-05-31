@@ -1,11 +1,11 @@
 format = """
-$directory\
+$directory \
+$username@\
+$hostname\
 $git_branch\
 $git_status\
 $fill\
 $cmd_duration\
-$username \
-$hostname \
 $time \
 $line_break\
 $status\
